@@ -10,11 +10,17 @@ public class MatrizCaracter {
                                 {'x','x','x','0'}};
 
     public static void main(String[] args) {
+        moverCerosPrimeraColumna();
+
+    }
+
+    private static void moverCerosPrimeraColumna() {
         for (int fila = 0 ; fila < matriz.length ; fila++){
             for (int col = 0 ; col < matriz[0].length ; col++){
-                if (matriz[fila][col] == '0'){
-                    intercambiarPrimeraColumna(fila,col);
-                }
+                    if (matriz[fila][col] == '0'){
+                        intercambiarPrimeraColumna(fila,col);
+                    }
+
             }
         }
 
