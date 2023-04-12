@@ -11,6 +11,8 @@ public class ArrayNumero {
             num+= array[pos]* (int)Math.pow(10,tam-(pos+1));
         }
         System.out.println(num);
+        System.out.println("algo mas");
     }
+
     }
 

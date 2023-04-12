@@ -11,7 +11,6 @@ public class MatrizCaracter {
 
     public static void main(String[] args) {
         moverCerosPrimeraColumna();
-
     }
 
     private static void moverCerosPrimeraColumna() {
@@ -20,10 +19,8 @@ public class MatrizCaracter {
                     if (matriz[fila][col] == '0'){
                         intercambiarPrimeraColumna(fila,col);
                     }
-
             }
         }
-
         imprimir();
     }
 
