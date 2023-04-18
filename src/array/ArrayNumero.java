@@ -1,3 +1,4 @@
+package array;
 
 /**
  * Convertir un array en un numero

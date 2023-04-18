@@ -1,3 +1,5 @@
+package matriz;
+
 public class RecorridosMatriz {
     static int [][] matriz = {{1,2,3},
                               {4,5,6},

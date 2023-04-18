@@ -1,3 +1,5 @@
+package recorridos;
+
 public class ForesRecorridos {
     public static void main(String[] args) {
         //primeraPiramideFor();

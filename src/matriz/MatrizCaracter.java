@@ -1,3 +1,4 @@
+package matriz;
 
 /**
  *  Dada una matriz se desea obtener la matriz con la primera columa de ceros
