@@ -1,4 +1,4 @@
-package recorridos;
+package estructurasDatos;
 
 import java.util.HashMap;
 import java.util.Map;
