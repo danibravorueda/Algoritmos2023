@@ -15,13 +15,31 @@ package examenes;
 import java.util.Scanner;
 
 public class ColeccionPalabrasTP1 {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int X = sc.nextInt();
+//        if (X>=0 && X<=10){
+//            int cantidadPalabras = sc.nextInt();
+//            if (cantidadPalabras>=1 && cantidadPalabras<=1000){
+//                String texto = sc.next();
+//                if (texto.length()<=20){
+//                    String [] palabras =  new String[cantidadPalabras];
+//                    for (int pos = 0 ; pos< palabras.length;pos++){
+//                        palabras[pos] = sc.next();
+//                    }
+//                    System.out.println(obtenerPalabrasDeCoincidencia(X,texto,palabras));
+//                }
+//            }
+//        }
+//    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int X = sc.nextInt();
+        int cantidadPalabras = sc.nextInt();
+        String texto = sc.next();
         if (X>=0 && X<=10){
-            int cantidadPalabras = sc.nextInt();
             if (cantidadPalabras>=1 && cantidadPalabras<=1000){
-                String texto = sc.next();
                 if (texto.length()<=20){
                     String [] palabras =  new String[cantidadPalabras];
                     for (int pos = 0 ; pos< palabras.length;pos++){

@@ -45,5 +45,14 @@ public class TortaTP2 {
         return radio*lados*altura;
     }
 
+    /** Devuelve cantidad de decimales
+     *  numero : numero original
+     *  numeroDecimales : con cuantos decimales
+     *
+     * **/
+    public static Double formatearDecimales(Double numero, Integer numeroDecimales) {
+        return Math.round(numero * Math.pow(10, numeroDecimales)) / Math.pow(10, numeroDecimales);
+    }
+
 
 }
